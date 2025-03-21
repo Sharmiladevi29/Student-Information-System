@@ -42,7 +42,7 @@ create table Courses(
 		foreign key(student_id) references Students(student_id) on delete cascade
 		);
         
-	insert into Students (student_id, first_name, last_name, date_of_birth, email, phone_number) VALUES
+    insert into Students (student_id, first_name, last_name, date_of_birth, email, phone_number) VALUES
     (101, 'Alice', 'Brown', '1999-11-30', 'alice@gmail.com', '9874659867'),
     (102, 'Charlie', 'Williams', '2000-12-03', 'charlie@gmail.com', '8938476356'),
     (103, 'Bob', 'Jay', '2002-03-29', 'bob@gmail.com', '8245658809'),
