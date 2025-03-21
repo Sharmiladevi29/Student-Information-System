@@ -1,9 +1,6 @@
 create database sisdb;
 use sisdb;
 
-create database sisdb;
-use sisdb;
-
 create table Students(
  student_id int primary key ,
  first_name varchar(50) not null,
