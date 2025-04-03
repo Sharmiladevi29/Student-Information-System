@@ -9,21 +9,16 @@ public class Main {
         Sis sis = new Sis();
         
         try {
-            // Creating students, courses, and teachers
             Student student1 = new Student(1, "John", "Doe", "2002-05-14", "john@example.com", "9876543210");
             Student student2 = new Student(2, "Alice", "Smith", "2001-08-21", "alice@example.com", "9123456789");
             Course course1 = new Course(101, "Java Programming", "CS101", "Dr. Smith");
             Course course2 = new Course(102, "Data Structures", "CS102", "Prof. Johnson");
             Teacher teacher1 = new Teacher(1, "Dr. James", "Brown", "james@university.com", "Computer Science");
-            
-            // Adding them to the system
             sis.addStudent(student1);
             sis.addStudent(student2);
             sis.addCourse(course1);
             sis.addCourse(course2);
             sis.addTeacher(teacher1);
-            
-            // Interactive menu
             while (true) {
                 System.out.println("\nStudent Information System (SIS)");
                 System.out.println("1. Enroll Student in Course");
