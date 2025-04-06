@@ -34,7 +34,7 @@ public class DBConnection {
 
                 Class.forName(driver);
                 connection = DriverManager.getConnection(url, user, pass);
-                System.out.println("✅ Connection established successfully!");
+                System.out.println("Connection established successfully!");
 
             } catch (SQLException | IOException | ClassNotFoundException e) {
                 e.printStackTrace();
