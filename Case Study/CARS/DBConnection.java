@@ -15,7 +15,6 @@ public class DBConnection {
     public static Connection getConnection() {
         if (connection == null) {
             try {
-                // Load the properties file from the classpath
             	FileInputStream fis = new FileInputStream("C:\\Users\\sha29\\eclipse-workspace\\Crimeanalysis\\src\\casestudy\\crimeanalysis\\db.properties");
 
             	//InputStream fis = DBConnection.class.getClassLoader().getResourceAsStream("db.properties");
